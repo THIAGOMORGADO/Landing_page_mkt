@@ -201,9 +201,6 @@ header {
   cursor: pointer;
 }
 
-
-
-
 @media screen and (max-width: 768px) {
   .container {
     width: 100vw;
@@ -229,18 +226,21 @@ header {
   .button-orça {
     display: none;
   }
- 
+  .menu-mobile img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .menu-mobile button {
     background-color: #FF4043;
     border: none;
     cursor: pointer;
     color: #fff;
-    font-size: 1.5rem;
-    font-family: 'Poppins';
+    font-size: 1.2rem;
     border-radius: 100%;
     font-weight: 600;
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
   .menu-mobile-item {
     display: flex;
