@@ -201,7 +201,7 @@ header {
   cursor: pointer;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 
 @media screen and (max-width: 768px) {
@@ -222,8 +222,6 @@ header {
   }
   .menu-mobile {
     display: flex;
-    align-items: center;
-    justify-content: center;
   }
   .menu-mobile-item  {
     display: none;
@@ -231,11 +229,7 @@ header {
   .button-orça {
     display: none;
   }
-  .menu-mobile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+ 
   .menu-mobile button {
     background-color: #FF4043;
     border: none;
@@ -247,5 +241,57 @@ header {
     font-weight: 600;
     width: 3rem;
     height: 3rem;
+  }
+  .menu-mobile-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #18181C;
+   
+    position: absolute;
+    top: 5.7rem;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+  .menu-mobile-item ul {
+    display: flex;
+    flex-direction: column;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   gap: 1rem;
+   list-style: none;
+   margin-top: 1rem;
+  }
+  .menu-mobile-item ul li {
+    display: flex;
+    
+    gap: 1rem;
+  }
+  .menu-mobile-item ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+  }
+  .btn-area {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 1rem;
+  }
+  .btn-area a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    font-weight: 600;
+    background-color: #FF4043;
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
   }
 }
