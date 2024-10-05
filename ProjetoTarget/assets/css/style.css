@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -31,6 +32,7 @@ header {
   justify-content: space-between;
 
 }
+
 .nav-menu {
   display: flex;
   align-items: center;
@@ -93,7 +95,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
+  height: 630px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,6 +112,7 @@ header {
   align-items: center;
   justify-content: center;
 }
+
 .fundoDesktopConatier {
   background-image: url(../img/fundoBanner.png);
   background-size: cover;
@@ -120,16 +123,15 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
- 
+
 }
+
 .banner-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  margin-top: 2rem;
-
 
 }
 
@@ -208,7 +210,7 @@ header {
 
 .banner-icon i {
   color: #fff;
-  font-size: 2rem;
+  font-size: 3rem;
   cursor: pointer;
 }
 
@@ -219,29 +221,47 @@ header {
     align-items: center;
     justify-content: center;
   }
+
   .header {
     width: 100vw;
-    height: 5.7rem;
+    height: 3rem;
+
+    position: fixed;
+    z-index: 1000;
+
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding-left: 1rem;
+    background-color: #18181C;
     padding-right: 1rem;
   }
+
   .nav-menu {
     display: none;
   }
+
   .menu-mobile {
     display: flex;
   }
-  .menu-mobile-item  {
+
+  .menu-mobile-item {
     display: none;
   }
+
   .button-orça {
     display: none;
   }
+
   .menu-mobile img {
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
   .menu-mobile button {
     background-color: #FF4043;
     border: none;
@@ -253,12 +273,13 @@ header {
     width: 2.5rem;
     height: 2.5rem;
   }
+
   .menu-mobile-item {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     background-color: #18181C;
-   
+
     position: absolute;
     top: 5.7rem;
     left: 0;
@@ -266,20 +287,23 @@ header {
     height: auto;
     padding-bottom: 2rem;
   }
+
   .menu-mobile-item ul {
     display: flex;
     flex-direction: column;
-   margin-left: 1rem;
-   margin-right: 1rem;
-   gap: 1rem;
-   list-style: none;
-   margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap: 1rem;
+    list-style: none;
+    margin-top: 1rem;
   }
+
   .menu-mobile-item ul li {
     display: flex;
-    
+
     gap: 1rem;
   }
+
   .menu-mobile-item ul li a {
     color: #fff;
     text-decoration: none;
@@ -287,12 +311,14 @@ header {
     font-family: 'Poppins';
     font-weight: 600;
   }
+
   .btn-area {
     display: flex;
     align-items: center;
     justify-content: end;
     margin-top: 1rem;
   }
+
   .btn-area a {
     color: #fff;
     text-decoration: none;
@@ -305,6 +331,7 @@ header {
     border: none;
     cursor: pointer;
   }
+
   .banner {
     background-image: url(../img/BackgroundMibile.png);
     background-size: cover;
@@ -314,8 +341,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
   }
+
   .fundo-banner {
     background-image: url(../img/FundoContainer.png);
     background-size: cover;
@@ -326,5 +354,66 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .banner-content h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Poppins';
+    font-size: 1.4rem;
+  }
+  .banner-content h2 {
+    text-align: center;
+    width: 50%;
+    
+    font-weight: 500;
+    font-family: 'Inter';
+    font-size: 2.5rem;
+  }
+  .banner-content p {
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 500;
+  }
+  .banner-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+  }
+  .banner-button-1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner-button-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  
+  .banner-icon i {
+    color: #fff;
+    font-size: 3rem;
+    cursor: pointer;
   }
 }
