@@ -100,7 +100,7 @@ header {
 }
 
 .fundo-banner {
-  background-image: url(../img/fundoBanner.png);
+  background-image: url(../img/fundoDesltopCOntainer.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -110,7 +110,18 @@ header {
   align-items: center;
   justify-content: center;
 }
-
+.fundoDesktopConatier {
+  background-image: url(../img/fundoBanner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
 .banner-content {
   display: flex;
   flex-direction: column;
@@ -293,5 +304,27 @@ header {
     border-radius: 3rem;
     border: none;
     cursor: pointer;
+  }
+  .banner {
+    background-image: url(../img/BackgroundMibile.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .fundo-banner {
+    background-image: url(../img/FundoContainer.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
