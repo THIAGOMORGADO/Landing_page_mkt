@@ -156,8 +156,8 @@ header {
 .banner-content h2 {
   color: #FF4043;
   font-size: 5rem;
-  font-family: 'Poppins';
-  font-weight: 400;
+  font-family: 'Inter';
+  font-weight: 200;
   text-transform: uppercase;
 }
 
@@ -172,6 +172,8 @@ header {
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .banner-button-1 {
@@ -221,6 +223,56 @@ header {
 /* Fim do Banner */
 
 /* Começo do cards */
+.cards {
+  display: flex;
+
+}
+.cards {
+  width: 100%;
+}
+.cards-container {
+  max-width: 1070px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  
+}
+.cards-content {
+  display: flex;
+  width: 100%;
+  gap: 3rem;
+}
+
+.card {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  flex: 1;
+}
+.card h1 {
+  color: #fff;
+  font-size: 1rem;
+  font-family: 'Poppins';
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.card p {
+  color: #fff;
+  display: flex;
+  gap: 2rem
+}
+.card a {
+  background-color: #FF4043;
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  text-decoration: none;
+  color: #fff;
+}
+
 @media screen and (max-width: 768px) {
   .container {
     width: 100vw;
