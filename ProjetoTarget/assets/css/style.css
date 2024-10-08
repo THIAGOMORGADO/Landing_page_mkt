@@ -222,7 +222,7 @@ header {
 }
 /* Fim do Banner */
 
-/* Começo do cards */
+/* Começo da Section cards */
 .cards {
   display: flex;
 
@@ -272,7 +272,88 @@ header {
   text-decoration: none;
   color: #fff;
 }
+/* Fim Section Cards */
 
+.container-abouts {
+  width: 100vw;
+  height: auto;
+  background-color: #040509;
+ 
+}
+.content-abouts {
+  max-width: 1070px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.abouts-warpper {
+  width: 70%;
+}
+.btn-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.btn-area h3 {
+  font-size: 1.1rem;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #fff;
+}
+.abouts-warpper p {
+  color: #FF4043;
+  font-size: 1.4rem;
+  font-family: 'Poppins';
+  font-weight: 200;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.abouts-warpper h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Poppins';
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.bar-red-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 100%;
+  gap: 2rem;
+  padding: 3rem;
+}
+.bar-red-bar {
+  
+  display: flex;
+  flex-direction: row;
+  background-color: #FF4043;
+
+}
+.more-infos p {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+.btn {
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 50%;
+}
+.btn a {
+  height: 2rem;
+  background-color: #FF4043;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3rem;
+  text-decoration: none;
+  color: #fff;
+} 
 @media screen and (max-width: 768px) {
   .container {
     width: 100vw;
@@ -545,5 +626,53 @@ header {
     font-family: 'Poppins';
     font-weight: 600;
     font-weight: 500;
+  }
+  .container-abouts {
+    width: 100vw;
+    height: auto;
+    background-color: #040509;
+ 
+  }
+  .mobile {
+    width: 100vw;
+  }
+  .content-abouts {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .img-right {
+    background-color: gray;
+  }
+  .img-right img {
+    width: 100%;
+  }
+  .bar-red-container {
+    width: 100%;
+    
+  }
+  .abouts-warpper {
+    width: 100%;
+    
+  }
+  .abouts-warpper h2 {
+    width: 100%;
+  }
+  .bar-red-container {
+    padding: 0 !important; /* Remove padding em telas maiores */
+  }
+  .btn {
+    margin-top: 1rem;
+    
+    width: 100%;
+    display: flex;
+  }
+  .btn a {
+    padding: 10px;
   }
 }
